@@ -1,0 +1,28 @@
+for front end mentor challenge 
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="http://esagewebdev.com/" target="_blank">Elizabeth Cantu</a>.
+</div>
+
+- Website - Elizabeth Cantu (http://esagewebdev.com/)
+- Frontend Mentor - [@Esagecc](https://www.frontendmentor.io/profile/Esagecc)
+- Twitter - [@esagecc](https://twitter.com/esagecc)
+- Codepen - [@esagecc] - (https://codepen.io/esagecc)
+
+- Website - Elizabeth Cantu (http://esagewebdev.com/)
+- Frontend Mentor - [@Esagecc](https://www.frontendmentor.io/profile/Esagecc)
+- Twitter - [@esagecc](https://twitter.com/esagecc)
+- LinkedIn - (https://www.linkedin.com/in/eliza-cantu)
+- Codepen - [@esagecc] - (https://codepen.io/esagecc)
+- Github - @esagecc - (https://github.com/Esagecc)
+
+## Acknowledgments
+
+I want to give thanks to my son River and my husband Robert for their support and motivation.
+
+DEAUI 
+
+DUIEA
+XXIEX
+ADIEU

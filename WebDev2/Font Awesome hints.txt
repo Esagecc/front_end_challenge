@@ -1,0 +1,9 @@
+<head>
+
+<script src="https://use.fontawesome.com/ddf4675be7.js"></script>
+
+</head>
+
+<i class="fa solid fa-bars"></i>
+
+<i class="fa solid fa-bell"></i>

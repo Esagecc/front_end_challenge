@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lt-gray-violet: hsl(270, 3%, 87%);
+    --dk-gray-violet: hsl(279, 6%, 55%);
+    --dark-violet: hsl(278, 68%, 11%);
+    --red: hsl(0, 100%, 66%);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-image: url(images/bg-main-mobile.png);
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 345px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.card {
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.front-card, .back-card {
+    height: 158px;   
+}
+
+.back-card {
+    align-self: flex-end;
+}
+
+.tri-zero {
+    position: absolute;
+    color: var(--white);
+    font-size: 0.6rem;
+    right: 2.3rem;
+    top: 4.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.front-card {
+    position: absolute;
+    top: 5.7rem;
+}
+
+.card-information {
+    z-index: 5;
+    position: absolute;
+    top: 5.5rem;
+    width: 290px;
+    padding: 20px;
+    color: var(--white);
+}
+
+.logo {
+    height: 32px;
+    margin-bottom: 40px;
+}
+
+.card-nums {
+    font-size: 1.1rem;
+    letter-spacing: 2.8px;
+    margin-bottom: 10px;
+}
+
+.card-credit {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+form input {
+    width: 100%;
+    border: 1px solid var(--lt-gray-violet);
+    border-radius: 10px;
+    height: 48px;
+    margin: 10px 0 20px;
+    padding-left: 20px;
+}
+
+form input::placeholder {
+    color: var(--dk-gray-violet);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card-info {
+    display: flex;
+}
+
+.card-row {
+    display:flex;
+}
+
+.card-row input:nth-child(1){
+    margin-right: 10px;
+}
+
+.card-row input {
+    width: 44%;
+}
+
+.card-column:nth-child(2){
+    width: 100%;
+}
+
+.inputs-sec {
+    display: block;
+}
+
+button {
+    width: 100%;
+    background-color: var(--dark-violet);
+    color: var(--white);
+    border: none;
+    padding: 18px 0;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.thank-you {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thank-you img {
+    padding-bottom: 12px;
+}
+
+.thank-you h2 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: 20px 0;
+    color: var(--dark-violet);
+    letter-spacing: 2px;
+}
+
+.thank-you h6 {
+    font-size: 1rem;
+    color: var(--dk-gray-violet);
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.msg-format, .cant-blank-one, .cant-blank-two {
+    font-size: 0.7rem;
+    color: var(--red);
+    margin: -10px 0 20px;
+    font-weight: 700;
+    display: block;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:800px) {
+    body {
+        background-image: url(images/bg-main-desktop.png);
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-content: center;
+    }
+
+    main {
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .card {
+        width: 540px;
+        flex-direction: column-reverse;
+        height: 550px;
+    }
+
+    .front-card, .back-card {
+        height: 340px;   
+        width: 440px;
+        }
+
+    .front-card {
+        padding-bottom: 40px;
+        position: relative;
+        top: 0;
+    }
+
+    .card-information {
+        top: 0;
+        width: 440px;
+        padding: 30px;
+    }
+
+    .tri-zero {
+        transform: translate(-20px, 332px);
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        height: 45px;
+        margin-bottom: 60px;
+    }
+
+    .card-nums {
+        font-size: 1.7rem;
+        margin-bottom: 25px;
+    }
+
+    .card-credit {
+     font-size: 0.9rem;
+    }
+
+    form {
+        max-width: 500px;
+        padding-left: 10%;
+    }
+
+    .thank-you h6 {
+        font-size: 1.1rem;
+    }
+
+    button {
+        padding: 15px 0;
+        width: 400px;
+    }
+}
+
+

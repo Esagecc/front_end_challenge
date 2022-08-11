@@ -1,0 +1,75 @@
+function multiplyTwoNumbers (n1, n2) {
+	return n1 * n2; 
+}
+
+function multiplyTwoNumbers (n1, n2) => n1 * n2;
+------
+function basicOp (operation, value1, value2) {
+	switch (operation) {
+
+	case '+' : return value1 + value 2;
+	case '-' : return value1 - value 2;
+	case '*' : return value1 * value 2;
+	case '/' : return value1 / value 2;
+}}
+
+
+function bmi(weight, height) {
+	var formula = (weight / Math.pow(height, 2));
+	switch (true) {
+		case formula <= 18.5 : return 'Underweight';
+		case formula <= 25.0 : return 'Normal';
+		case formula <= 30 : return 'Overweight';
+		default: return 'Obese';
+}
+}
+
+
+------
+
+function hero (bullets, dragons) {
+return bullets >= dragon * 2
+}
+
+function points (games) {
+ var sum = 0;
+	for (var i = 0; i < games.length; i++){
+	if (games [1][0] > games[1][2]
+	 sum += 3;
+	if (games [1][0]==games[1][2]
+	sum += 1;
+}
+return sum;
+}
+
+const points = games = games.reduce((output, current) => {
+return output += current[0]>current[2] ? 3 : current[0]===current[2] ? 1 : 0;}, 0)
+-----
+Reverse the strings order.
+
+function solution(str) {
+	let sliptString = str.split('');
+	let reverseArray = splitString.reverse();
+	let joinArray = reverseArray.join('');
+	return joinArray; 
+}
+------
+
+Add array of words to make a sentence.
+
+function smash (words) {
+	return words.join(' ');
+};
+
+
+const smash = words => words.join(' '); 
+--------
+to number to string
+
+function numberToString (num) {
+	return num.toString();
+}
+
+const numberToString = num => num.toString();
+-----
+

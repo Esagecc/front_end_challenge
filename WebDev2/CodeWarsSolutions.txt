@@ -1,0 +1,81 @@
+For a true boolean 
+
+function boolToWord( bool ){
+  //...
+    if (bool === true) {
+      return ('Yes')
+    } else {
+      return ('No')
+    }
+}
+
+function boolToWord( bool ){
+  if (bool) {
+    return 'Yes';
+  } else {
+    return 'No';
+  }
+}
+
+function boolToWord( bool ){
+  return bool ? 'Yes':'No';
+}
+
+------------
+
+
+function boolToWord (bool) {
+	return bool ? 'Yes' : 'No';
+}
+
+-------
+to reverse number to an array
+
+const reverseSeq = n => {
+	let arr = [];
+	for (let i = n; i > 0; i--) {
+	arr.push(i);
+	} return arr;
+};
+
+-------
+numbers that would be divided between a and b
+
+let isDivideBy = (number, a, b) {
+	if (number % a === 0 && number % b === 0) {
+	return true 
+} else {
+	return false
+}
+}
+
+
+function isDivideBy (number, a, b) {
+	return number % a === 0 && number % b === 0
+}
+
+const isDivideBy = (number, a, b) => number % a === 0 && number % b === 0;
+
+-------
+
+to get permiter or area 
+
+const areaOrPerimeter = function(l , w) {
+  if (w == l) {
+    return w * l;
+  }
+    else {
+      return 2*l+2*w;
+    }
+};
+
+
+const areaOrPerimeter = (l , w) => l === w ? l*w : 2*(l+w);
+--------
+
+function positiveSum(arr) {
+return arr.reduce(a,b) => a + b, 0);
+}
+
+
+
