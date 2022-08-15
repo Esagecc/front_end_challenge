@@ -42,8 +42,33 @@ function getCvc(){
 
 }
 
-function checkSubmit() {
-    if (inputNums.value.match(/[a-zA-Z]/g)){
+function checkSubmit(e) {
+        if (inputNums.value.match(/[a-zA-Z]/g) || inputNums.value === ''){
         document.querySelector('.msg-format').style.display = 'block';
+        e.preventDefault();
+        document.querySelector('#input-nums').style.border = '1px solid hsl(0, 100%, 66%)'
+        return false;
+    } 
+    
+    if (inputMm.value === '' || inputYy.value === ''){
+        document.querySelector('.cant-blank-one').style.display = 'block';
+        document.querySelector('#input-mm').style.border = '1px solid hsl(0, 100%, 66%)'
+        document.querySelector('#input-yy').style.border = '1px solid hsl(0, 100%, 66%)'
+        e.preventDefault();
+        return false;
     }
+    
+    if (inputCvc.value === '' ){
+        document.querySelector('.cant-blank-two').style.display = 'block';
+        document.querySelector('#input-cvc').style.border = '1px solid hsl(0, 100%, 66%)'
+        e.preventDefault();
+        return false;
+} else {
+    document.querySelector('.inputs-sec').style.display = 'none'
+    document.querySelector('.thank-you').style.display = 'flex'
+    event.preventDefault()
 }
+
+     
+
+    }

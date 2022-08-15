@@ -84,7 +84,7 @@ main {
     justify-content: space-between;
 }
 
-.form {
+form {
     position: relative;
     display: flex;
     flex-direction: column;
