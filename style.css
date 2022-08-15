@@ -173,12 +173,14 @@ button {
     letter-spacing: 1px;
 }
 
-.msg-format, .cant-blank-one, .cant-blank-two {
+.msg-format, 
+.cant-blank-one, 
+.cant-blank-two {
     font-size: 0.7rem;
     color: var(--red);
     margin: -10px 0 20px;
     font-weight: 700;
-    display: block;
+    display: none;
 }
 
 .attribution { 
